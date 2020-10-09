@@ -1,0 +1,31 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "outDir": "./dist/out-kjf-admin",
+    "baseUrl": "./",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": false,
+    "target": "es2015",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"],
+    "resolveJsonModule": true
+  },
+  "angularCompilerOptions": {
+    "strictMetadataEmit": false,
+    "skipTemplateCodegen": true,
+    "fullTemplateTypeCheck": true
+  },
+  "files": ["./src/typings/index.d.ts", "./src/public-api.ts"],
+  "exclude": ["node_modules", "dist"],
+  "include": [
+    "src/**/*"
+  ]
+}

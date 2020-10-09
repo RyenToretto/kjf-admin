@@ -1,0 +1,13 @@
+{
+  "name": "kjf-admin",
+  "version": "0.0.1",
+  "description": "kjf admin",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["koujianfeng", "admin"],
+  "author": "koujianfeng <18273727925@163.com> (https://juejin.im/user/870468939679469)",
+  "license": "MIT"
+}
